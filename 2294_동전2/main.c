@@ -95,6 +95,7 @@ int main()
 #if 1
 #include <stdio.h>
 int n,coin[105],cache[10005];
+
 int coin1(int sum){
         int i;
         if(sum==0) return 0;
